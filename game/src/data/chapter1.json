@@ -1,0 +1,1509 @@
+{
+  "id": "taoyuan-01",
+  "version": 1,
+  "name": "桃园结义 · 村外",
+  "width": 16,
+  "height": 12,
+  "tileSize": 64,
+  "visualAssetId": "plain_day",
+  "renderer": "background",
+  "collisionAuthored": true,
+  "authoredAt": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": true,
+      "note": "北缘孤立景观空地，不纳入通行区域"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true,
+      "note": "民居檐下与侧院闭合区域，首版不通行"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "terrain": "bridge",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "terrain": "cliff",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true,
+      "note": "右下封闭庭院，无合法入口"
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "terrain": "bridge",
+      "height": 0,
+      "blocked": true,
+      "note": "底部装饰桥与西岸未按64格衔接，首版禁行，待美术返修"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "terrain": "bridge",
+      "height": 0,
+      "blocked": true,
+      "note": "底部装饰桥与西岸未按64格衔接，首版禁行，待美术返修"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "terrain": "road",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "terrain": "water",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "terrain": "plain",
+      "height": 0,
+      "blocked": false
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树冠与南侧地图边界，首版绕行"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "terrain": "building",
+      "height": 0,
+      "blocked": true
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "terrain": "forest",
+      "height": 0,
+      "blocked": true,
+      "note": "树干或浓密树冠；无独立前景，首版绕行"
+    }
+  ],
+  "deployments": [
+    {
+      "unitId": "liu_bei",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "unitId": "guan_yu",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "unitId": "zhang_fei",
+      "x": 5,
+      "y": 6
+    },
+    {
+      "unitId": "yellow_1",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "unitId": "yellow_2",
+      "x": 10,
+      "y": 5
+    },
+    {
+      "unitId": "yellow_3",
+      "x": 11,
+      "y": 6
+    },
+    {
+      "unitId": "yellow_4",
+      "x": 10,
+      "y": 8
+    },
+    {
+      "unitId": "yellow_5",
+      "x": 12,
+      "y": 7
+    },
+    {
+      "unitId": "yellow_chief",
+      "x": 13,
+      "y": 5
+    }
+  ],
+  "entities": [],
+  "events": [
+    {
+      "id": "village-defense",
+      "type": "objective",
+      "cells": [
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "description": "刘关张于村外迎击黄巾散兵，无需进入营寨。"
+    },
+    {
+      "id": "north-bridge",
+      "type": "landmark",
+      "cells": [
+        {
+          "x": 0,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 4
+        }
+      ],
+      "description": "西侧静态桥面与两端道路已标注，可通过。"
+    }
+  ],
+  "victoryCondition": {
+    "type": "defeat-all-enemies"
+  },
+  "defeatCondition": {
+    "type": "any-unit-defeated",
+    "unitIds": [
+      "liu_bei",
+      "guan_yu",
+      "zhang_fei"
+    ]
+  },
+  "reviewNotes": [
+    "192格逐格人工标注；未使用按像素颜色自动分类。",
+    "林地默认代价2；具体树干及浓密树冠通过blocked显式阻挡，不把所有森林一律禁行。",
+    "围墙、篱笆、农田围挡、民居与营寨合并为建筑障碍；没有可进入的室内。",
+    "底部桥梁局部与64格逻辑西岸不衔接，作为不可达景观保留；不得用其完成跨河目标。",
+    "本关所有部署点及目标位于中心连通空地；左侧桥无交战强制目标。",
+    "没有树冠或屋顶独立前景，角色路线绕开需遮挡的格子。"
+  ]
+}

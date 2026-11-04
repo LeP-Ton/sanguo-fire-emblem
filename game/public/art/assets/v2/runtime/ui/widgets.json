@@ -1,0 +1,29 @@
+{
+  "dialogue": {
+    "texture": "panel_blue.png",
+    "nineSlice": 32,
+    "typewriter": {
+      "charactersPerSecond": 22,
+      "skipOnConfirm": true
+    }
+  },
+  "bars": {
+    "frame": "bar_frame.png",
+    "inner": [
+      4,
+      4,
+      152,
+      8
+    ],
+    "hp": "hp_fill.png",
+    "mp": "mp_fill.png",
+    "burst": "burst_fill.png"
+  },
+  "weaponAffinityIcons": [
+    "icon_sword.png",
+    "icon_spear.png",
+    "icon_axe.png",
+    "icon_bow.png",
+    "icon_magic.png"
+  ]
+}

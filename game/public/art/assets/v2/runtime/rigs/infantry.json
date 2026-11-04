@@ -1,0 +1,1556 @@
+{
+  "id": "infantry",
+  "name": "步兵",
+  "frameSize": 64,
+  "columns": 4,
+  "rows": 9,
+  "sourceRows": 9,
+  "patches": [],
+  "footprint": [
+    1,
+    1
+  ],
+  "pivot": [
+    0.5,
+    1
+  ],
+  "direction": "right",
+  "mirrorDirection": "left",
+  "unarmed": true,
+  "bodyLayer": "身体及完整坐骑",
+  "weaponLayer": "主握点与独立武器；副手盾牌单独配置",
+  "attackProfile": "sword",
+  "defaultWeapon": "iron_sword",
+  "weaponFamilies": [
+    "sword",
+    "spear",
+    "axe"
+  ],
+  "defaultShield": null,
+  "markerMode": "小面积独立遮罩",
+  "outerOutline": false,
+  "frames": [
+    {
+      "x": 39,
+      "y": 39,
+      "bounds": {
+        "left": 36,
+        "top": 34,
+        "width": 8,
+        "height": 12
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 38,
+        "bounds": {
+          "left": 20,
+          "top": 34,
+          "width": 9,
+          "height": 10
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "idle",
+      "frame": 0
+    },
+    {
+      "x": 40,
+      "y": 39,
+      "bounds": {
+        "left": 37,
+        "top": 33,
+        "width": 7,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 38,
+        "bounds": {
+          "left": 20,
+          "top": 34,
+          "width": 9,
+          "height": 10
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "idle",
+      "frame": 1
+    },
+    {
+      "x": 39,
+      "y": 37,
+      "bounds": {
+        "left": 36,
+        "top": 32,
+        "width": 8,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 39,
+        "bounds": {
+          "left": 20,
+          "top": 34,
+          "width": 9,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "idle",
+      "frame": 2
+    },
+    {
+      "x": 40,
+      "y": 39,
+      "bounds": {
+        "left": 37,
+        "top": 33,
+        "width": 7,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 39,
+        "bounds": {
+          "left": 20,
+          "top": 34,
+          "width": 9,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "idle",
+      "frame": 3
+    },
+    {
+      "x": 38,
+      "y": 39,
+      "bounds": {
+        "left": 35,
+        "top": 32,
+        "width": 7,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 25,
+        "y": 40,
+        "bounds": {
+          "left": 22,
+          "top": 34,
+          "width": 8,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "move",
+      "frame": 0
+    },
+    {
+      "x": 41,
+      "y": 35,
+      "bounds": {
+        "left": 38,
+        "top": 32,
+        "width": 8,
+        "height": 7
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 23,
+        "y": 39,
+        "bounds": {
+          "left": 18,
+          "top": 34,
+          "width": 11,
+          "height": 11
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "move",
+      "frame": 1
+    },
+    {
+      "x": 40,
+      "y": 39,
+      "bounds": {
+        "left": 36,
+        "top": 34,
+        "width": 9,
+        "height": 12
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 27,
+        "y": 37,
+        "bounds": {
+          "left": 23,
+          "top": 32,
+          "width": 8,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "move",
+      "frame": 2
+    },
+    {
+      "x": 35,
+      "y": 37,
+      "bounds": {
+        "left": 31,
+        "top": 31,
+        "width": 11,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 27,
+        "y": 40,
+        "bounds": {
+          "left": 22,
+          "top": 34,
+          "width": 9,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "move",
+      "frame": 3
+    },
+    {
+      "x": 43,
+      "y": 37,
+      "bounds": {
+        "left": 37,
+        "top": 33,
+        "width": 13,
+        "height": 9
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 22,
+        "y": 37,
+        "bounds": {
+          "left": 17,
+          "top": 31,
+          "width": 12,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -10,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "attack",
+      "frame": 0
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "bounds": {
+        "left": 16,
+        "top": 11,
+        "width": 8,
+        "height": 10
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 44,
+        "y": 35,
+        "bounds": {
+          "left": 39,
+          "top": 30,
+          "width": 11,
+          "height": 10
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -60,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "attack",
+      "frame": 1
+    },
+    {
+      "x": 48,
+      "y": 47,
+      "bounds": {
+        "left": 45,
+        "top": 42,
+        "width": 8,
+        "height": 10
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 30,
+        "bounds": {
+          "left": 21,
+          "top": 26,
+          "width": 7,
+          "height": 8
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 42,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "attack",
+      "frame": 2
+    },
+    {
+      "x": 43,
+      "y": 35,
+      "bounds": {
+        "left": 39,
+        "top": 31,
+        "width": 10,
+        "height": 8
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 25,
+        "y": 37,
+        "bounds": {
+          "left": 20,
+          "top": 31,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 8,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "attack",
+      "frame": 3
+    },
+    {
+      "x": 41,
+      "y": 40,
+      "bounds": {
+        "left": 37,
+        "top": 33,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 40,
+        "bounds": {
+          "left": 19,
+          "top": 34,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "hit",
+      "frame": 0
+    },
+    {
+      "x": 42,
+      "y": 34,
+      "bounds": {
+        "left": 38,
+        "top": 30,
+        "width": 9,
+        "height": 8
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 22,
+        "y": 35,
+        "bounds": {
+          "left": 16,
+          "top": 31,
+          "width": 13,
+          "height": 12
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 3,
+      "removedIslandPixels": 0,
+      "state": "hit",
+      "frame": 1
+    },
+    {
+      "x": 39,
+      "y": 35,
+      "bounds": {
+        "left": 34,
+        "top": 29,
+        "width": 13,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 25,
+        "y": 38,
+        "bounds": {
+          "left": 18,
+          "top": 34,
+          "width": 12,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 2,
+      "removedIslandPixels": 0,
+      "state": "hit",
+      "frame": 2
+    },
+    {
+      "x": 38,
+      "y": 42,
+      "bounds": {
+        "left": 35,
+        "top": 36,
+        "width": 8,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 23,
+        "y": 40,
+        "bounds": {
+          "left": 18,
+          "top": 34,
+          "width": 11,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 2,
+      "removedIslandPixels": 0,
+      "state": "hit",
+      "frame": 3
+    },
+    {
+      "x": 40,
+      "y": 39,
+      "bounds": {
+        "left": 36,
+        "top": 32,
+        "width": 10,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 40,
+        "bounds": {
+          "left": 19,
+          "top": 34,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "dodge",
+      "frame": 0
+    },
+    {
+      "x": 39,
+      "y": 35,
+      "bounds": {
+        "left": 36,
+        "top": 32,
+        "width": 7,
+        "height": 7
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 21,
+        "y": 40,
+        "bounds": {
+          "left": 16,
+          "top": 33,
+          "width": 13,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "dodge",
+      "frame": 1
+    },
+    {
+      "x": 44,
+      "y": 41,
+      "bounds": {
+        "left": 39,
+        "top": 34,
+        "width": 13,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 20,
+        "y": 38,
+        "bounds": {
+          "left": 15,
+          "top": 33,
+          "width": 13,
+          "height": 12
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "dodge",
+      "frame": 2
+    },
+    {
+      "x": 42,
+      "y": 39,
+      "bounds": {
+        "left": 38,
+        "top": 33,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 40,
+        "bounds": {
+          "left": 20,
+          "top": 34,
+          "width": 9,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 15,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "dodge",
+      "frame": 3
+    },
+    {
+      "x": 39,
+      "y": 34,
+      "bounds": {
+        "left": 35,
+        "top": 27,
+        "width": 11,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 39,
+        "bounds": {
+          "left": 18,
+          "top": 34,
+          "width": 11,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -12,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "block",
+      "frame": 0
+    },
+    {
+      "x": 39,
+      "y": 28,
+      "bounds": {
+        "left": 36,
+        "top": 25,
+        "width": 8,
+        "height": 8
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 40,
+        "bounds": {
+          "left": 17,
+          "top": 34,
+          "width": 12,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -12,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "block",
+      "frame": 1
+    },
+    {
+      "x": 42,
+      "y": 26,
+      "bounds": {
+        "left": 38,
+        "top": 22,
+        "width": 9,
+        "height": 10
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 25,
+        "y": 41,
+        "bounds": {
+          "left": 21,
+          "top": 34,
+          "width": 9,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -12,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "block",
+      "frame": 2
+    },
+    {
+      "x": 43,
+      "y": 31,
+      "bounds": {
+        "left": 38,
+        "top": 27,
+        "width": 10,
+        "height": 9
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 25,
+        "y": 41,
+        "bounds": {
+          "left": 21,
+          "top": 37,
+          "width": 9,
+          "height": 10
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -12,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "block",
+      "frame": 3
+    },
+    {
+      "x": 39,
+      "y": 41,
+      "bounds": {
+        "left": 36,
+        "top": 34,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 23,
+        "y": 40,
+        "bounds": {
+          "left": 19,
+          "top": 34,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 12,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "cast",
+      "frame": 0
+    },
+    {
+      "x": 34,
+      "y": 16,
+      "bounds": {
+        "left": 32,
+        "top": 10,
+        "width": 7,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 22,
+        "y": 40,
+        "bounds": {
+          "left": 17,
+          "top": 34,
+          "width": 11,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": -20,
+      "baselineShift": 1,
+      "removedIslandPixels": 0,
+      "state": "cast",
+      "frame": 1
+    },
+    {
+      "x": 46,
+      "y": 25,
+      "bounds": {
+        "left": 42,
+        "top": 22,
+        "width": 9,
+        "height": 7
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 22,
+        "y": 40,
+        "bounds": {
+          "left": 16,
+          "top": 34,
+          "width": 13,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 55,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "cast",
+      "frame": 2
+    },
+    {
+      "x": 41,
+      "y": 40,
+      "bounds": {
+        "left": 37,
+        "top": 33,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 23,
+        "y": 40,
+        "bounds": {
+          "left": 19,
+          "top": 34,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 12,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "cast",
+      "frame": 3
+    },
+    {
+      "x": 38,
+      "y": 40,
+      "bounds": {
+        "left": 35,
+        "top": 34,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 26,
+        "y": 38,
+        "bounds": {
+          "left": 20,
+          "top": 32,
+          "width": 13,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 10,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "heal",
+      "frame": 0
+    },
+    {
+      "x": 35,
+      "y": 30,
+      "bounds": {
+        "left": 29,
+        "top": 26,
+        "width": 13,
+        "height": 9
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 28,
+        "y": 40,
+        "bounds": {
+          "left": 22,
+          "top": 34,
+          "width": 11,
+          "height": 11
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 0,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "heal",
+      "frame": 1
+    },
+    {
+      "x": 43,
+      "y": 27,
+      "bounds": {
+        "left": 37,
+        "top": 22,
+        "width": 12,
+        "height": 9
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "逐帧人工复核掌心",
+      "reviewed": true,
+      "offhand": {
+        "x": 25,
+        "y": 38,
+        "bounds": {
+          "left": 19,
+          "top": 32,
+          "width": 13,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 35,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "heal",
+      "frame": 2
+    },
+    {
+      "x": 40,
+      "y": 39,
+      "bounds": {
+        "left": 36,
+        "top": 33,
+        "width": 9,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 26,
+        "y": 38,
+        "bounds": {
+          "left": 20,
+          "top": 32,
+          "width": 13,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 10,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "heal",
+      "frame": 3
+    },
+    {
+      "x": 39,
+      "y": 42,
+      "bounds": {
+        "left": 35,
+        "top": 36,
+        "width": 8,
+        "height": 12
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 24,
+        "y": 40,
+        "bounds": {
+          "left": 19,
+          "top": 34,
+          "width": 10,
+          "height": 13
+        },
+        "material": "light",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 90,
+      "baselineShift": 0,
+      "removedIslandPixels": 0,
+      "state": "defeat",
+      "frame": 0
+    },
+    {
+      "x": 40,
+      "y": 49,
+      "bounds": {
+        "left": 33,
+        "top": 43,
+        "width": 13,
+        "height": 13
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 27,
+        "y": 50,
+        "bounds": {
+          "left": 21,
+          "top": 44,
+          "width": 12,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 90,
+      "baselineShift": 2,
+      "removedIslandPixels": 0,
+      "state": "defeat",
+      "frame": 1
+    },
+    {
+      "x": 44,
+      "y": 55,
+      "bounds": {
+        "left": 39,
+        "top": 48,
+        "width": 12,
+        "height": 13
+      },
+      "material": "light",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 26,
+        "y": 54,
+        "bounds": {
+          "left": 20,
+          "top": 48,
+          "width": 13,
+          "height": 13
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 90,
+      "baselineShift": 2,
+      "removedIslandPixels": 0,
+      "state": "defeat",
+      "frame": 2
+    },
+    {
+      "x": 47,
+      "y": 56,
+      "bounds": {
+        "left": 42,
+        "top": 50,
+        "width": 13,
+        "height": 12
+      },
+      "material": "tan",
+      "gripSize": 5,
+      "detected": true,
+      "channel": false,
+      "method": "局部掌心中心",
+      "offhand": {
+        "x": 34,
+        "y": 57,
+        "bounds": {
+          "left": 27,
+          "top": 52,
+          "width": 13,
+          "height": 10
+        },
+        "material": "tan",
+        "gripSize": 5,
+        "detected": true,
+        "channel": false,
+        "method": "局部掌心中心"
+      },
+      "rotation": 90,
+      "baselineShift": 2,
+      "removedIslandPixels": 0,
+      "state": "defeat",
+      "frame": 3
+    }
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "name": "待机",
+      "row": 0,
+      "frames": 4,
+      "durationMs": 180,
+      "loop": true
+    },
+    {
+      "id": "move",
+      "name": "移动",
+      "row": 1,
+      "frames": 4,
+      "durationMs": 100,
+      "loop": true
+    },
+    {
+      "id": "attack",
+      "name": "攻击",
+      "row": 2,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "hit",
+      "name": "受击",
+      "row": 3,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "dodge",
+      "name": "回避",
+      "row": 4,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "block",
+      "name": "格挡",
+      "row": 5,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "cast",
+      "name": "计策",
+      "row": 6,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "heal",
+      "name": "恢复",
+      "row": 7,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    },
+    {
+      "id": "defeat",
+      "name": "败退",
+      "row": 8,
+      "frames": 4,
+      "durationMs": 120,
+      "loop": false
+    }
+  ],
+  "mounted": false,
+  "attachmentReview": "新造型重新提取掌心；对应职业动作与代表装备需逐帧检视",
+  "frameSources": [
+    {
+      "state": "idle",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "idle",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "idle",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "idle",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "move",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "move",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "move",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "move",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "attack",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "attack",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "attack",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "attack",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "hit",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "hit",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "hit",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "hit",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "dodge",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "dodge",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "dodge",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "dodge",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "block",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "block",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "block",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "block",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "cast",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "cast",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "cast",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "cast",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "heal",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "heal",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "heal",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "heal",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "defeat",
+      "frame": 0,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "defeat",
+      "frame": 1,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "defeat",
+      "frame": 2,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    },
+    {
+      "state": "defeat",
+      "frame": 3,
+      "source": "assets/v2/source/unit_redesign/infantry.png"
+    }
+  ],
+  "bodyHeight": 60,
+  "handRendering": "native-occlusion",
+  "class": "infantry"
+}

@@ -1,0 +1,1617 @@
+{
+  "description": "通过真实游戏输入复现；end-phase 后等待敌军动作完成再继续。坐标从0开始。",
+  "seed": 20261104,
+  "mapId": "taoyuan-01",
+  "mapVersion": 1,
+  "commands": [
+    {
+      "turn": 1,
+      "type": "attack",
+      "unitId": "liu_bei",
+      "targetId": "yellow_2",
+      "to": {
+        "x": 9,
+        "y": 5
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 1,
+        "rngState": 4025935169,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 24,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 10,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 4,
+            "y": 5,
+            "hp": 32,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 5,
+            "y": 6,
+            "hp": 34,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 10,
+            "y": 5,
+            "hp": 10,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 11,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 10,
+            "y": 8,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 12,
+            "y": 7,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 13,
+            "y": 5,
+            "hp": 30,
+            "alive": true,
+            "acted": false,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 1,
+      "type": "attack",
+      "unitId": "guan_yu",
+      "targetId": "yellow_1",
+      "to": {
+        "x": 7,
+        "y": 4
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 1,
+        "rngState": 2016693651,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 24,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 10,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 7,
+            "y": 4,
+            "hp": 28,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 10,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 5,
+            "y": 6,
+            "hp": 34,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 8,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 10,
+            "y": 5,
+            "hp": 10,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 11,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 10,
+            "y": 8,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 12,
+            "y": 7,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 13,
+            "y": 5,
+            "hp": 30,
+            "alive": true,
+            "acted": false,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 1,
+      "type": "attack",
+      "unitId": "zhang_fei",
+      "targetId": "yellow_1",
+      "to": {
+        "x": 8,
+        "y": 5
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 1,
+        "rngState": 2323435619,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 24,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 10,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 7,
+            "y": 4,
+            "hp": 28,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 10,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 8,
+            "y": 5,
+            "hp": 34,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 30,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 10,
+            "y": 5,
+            "hp": 10,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 11,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 10,
+            "y": 8,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 12,
+            "y": 7,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 13,
+            "y": 5,
+            "hp": 30,
+            "alive": true,
+            "acted": false,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 1,
+      "type": "end-phase",
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 2,
+        "rngState": 3303409367,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 30,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 7,
+            "y": 4,
+            "hp": 24,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 40,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 8,
+            "y": 5,
+            "hp": 34,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 30,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 10,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 10,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 10,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 30,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "type": "attack",
+      "unitId": "liu_bei",
+      "targetId": "yellow_3",
+      "to": {
+        "x": 9,
+        "y": 5
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 2,
+        "rngState": 264136455,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 60,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 7,
+            "y": 4,
+            "hp": 24,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 40,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 8,
+            "y": 5,
+            "hp": 34,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 30,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 10,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 10,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 30,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "type": "attack",
+      "unitId": "guan_yu",
+      "targetId": "yellow_4",
+      "to": {
+        "x": 8,
+        "y": 6
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 2,
+        "rngState": 807394995,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 60,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 24,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 8,
+            "y": 5,
+            "hp": 34,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 30,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 10,
+            "y": 6,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 30,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "type": "attack",
+      "unitId": "zhang_fei",
+      "targetId": "yellow_5",
+      "to": {
+        "x": 10,
+        "y": 5
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 2,
+        "rngState": 2595658370,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 60,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 24,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 34,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 40,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 10,
+            "y": 6,
+            "hp": 7,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 30,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 2,
+      "type": "end-phase",
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 3,
+        "rngState": 1707472934,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 9,
+            "y": 5,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 60,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 21,
+            "alive": true,
+            "acted": false,
+            "level": 2,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 26,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 50,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "type": "attack",
+      "unitId": "liu_bei",
+      "targetId": "yellow_chief",
+      "to": {
+        "x": 11,
+        "y": 4
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 3,
+        "rngState": 1840364022,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 11,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 21,
+            "alive": true,
+            "acted": false,
+            "level": 2,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 26,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 50,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 11,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "type": "heal",
+      "unitId": "guan_yu",
+      "to": {
+        "x": 8,
+        "y": 6
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 3,
+        "rngState": 1840364022,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 11,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 31,
+            "alive": true,
+            "acted": true,
+            "level": 2,
+            "exp": 0,
+            "potions": 2
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 26,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 50,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 11,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "type": "attack",
+      "unitId": "zhang_fei",
+      "targetId": "yellow_chief",
+      "to": {
+        "x": 10,
+        "y": 5
+      },
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 3,
+        "rngState": 1372663289,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 11,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 31,
+            "alive": true,
+            "acted": true,
+            "level": 2,
+            "exp": 0,
+            "potions": 2
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 16,
+            "alive": true,
+            "acted": true,
+            "level": 1,
+            "exp": 60,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 1,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 3,
+      "type": "end-phase",
+      "expected": {
+        "status": "battle",
+        "phase": "player",
+        "turn": 4,
+        "rngState": 3980835194,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 11,
+            "y": 4,
+            "hp": 20,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 31,
+            "alive": true,
+            "acted": false,
+            "level": 2,
+            "exp": 0,
+            "potions": 2
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 16,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 1,
+            "alive": true,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    },
+    {
+      "turn": 4,
+      "type": "attack",
+      "unitId": "liu_bei",
+      "targetId": "yellow_chief",
+      "to": {
+        "x": 11,
+        "y": 4
+      },
+      "expected": {
+        "status": "victory",
+        "phase": "player",
+        "turn": 4,
+        "rngState": 474325284,
+        "units": [
+          {
+            "id": "liu_bei",
+            "x": 11,
+            "y": 4,
+            "hp": 21,
+            "alive": true,
+            "acted": true,
+            "level": 2,
+            "exp": 0,
+            "potions": 3
+          },
+          {
+            "id": "guan_yu",
+            "x": 8,
+            "y": 6,
+            "hp": 31,
+            "alive": true,
+            "acted": false,
+            "level": 2,
+            "exp": 0,
+            "potions": 2
+          },
+          {
+            "id": "zhang_fei",
+            "x": 10,
+            "y": 5,
+            "hp": 16,
+            "alive": true,
+            "acted": false,
+            "level": 1,
+            "exp": 70,
+            "potions": 3
+          },
+          {
+            "id": "yellow_1",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": false,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_2",
+            "x": 8,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_3",
+            "x": 10,
+            "y": 5,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_4",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_5",
+            "x": 9,
+            "y": 6,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 1,
+            "exp": 0,
+            "potions": 0
+          },
+          {
+            "id": "yellow_chief",
+            "x": 10,
+            "y": 4,
+            "hp": 0,
+            "alive": false,
+            "acted": true,
+            "level": 3,
+            "exp": 0,
+            "potions": 0
+          }
+        ]
+      }
+    }
+  ],
+  "expectedOutcome": {
+    "status": "victory",
+    "phase": "player",
+    "turn": 4,
+    "rngState": 474325284,
+    "units": [
+      {
+        "id": "liu_bei",
+        "x": 11,
+        "y": 4,
+        "hp": 21,
+        "alive": true,
+        "acted": true,
+        "level": 2,
+        "exp": 0,
+        "potions": 3
+      },
+      {
+        "id": "guan_yu",
+        "x": 8,
+        "y": 6,
+        "hp": 31,
+        "alive": true,
+        "acted": false,
+        "level": 2,
+        "exp": 0,
+        "potions": 2
+      },
+      {
+        "id": "zhang_fei",
+        "x": 10,
+        "y": 5,
+        "hp": 16,
+        "alive": true,
+        "acted": false,
+        "level": 1,
+        "exp": 70,
+        "potions": 3
+      },
+      {
+        "id": "yellow_1",
+        "x": 8,
+        "y": 4,
+        "hp": 0,
+        "alive": false,
+        "acted": false,
+        "level": 1,
+        "exp": 0,
+        "potions": 0
+      },
+      {
+        "id": "yellow_2",
+        "x": 8,
+        "y": 4,
+        "hp": 0,
+        "alive": false,
+        "acted": true,
+        "level": 1,
+        "exp": 0,
+        "potions": 0
+      },
+      {
+        "id": "yellow_3",
+        "x": 10,
+        "y": 5,
+        "hp": 0,
+        "alive": false,
+        "acted": true,
+        "level": 1,
+        "exp": 0,
+        "potions": 0
+      },
+      {
+        "id": "yellow_4",
+        "x": 9,
+        "y": 6,
+        "hp": 0,
+        "alive": false,
+        "acted": true,
+        "level": 1,
+        "exp": 0,
+        "potions": 0
+      },
+      {
+        "id": "yellow_5",
+        "x": 9,
+        "y": 6,
+        "hp": 0,
+        "alive": false,
+        "acted": true,
+        "level": 1,
+        "exp": 0,
+        "potions": 0
+      },
+      {
+        "id": "yellow_chief",
+        "x": 10,
+        "y": 4,
+        "hp": 0,
+        "alive": false,
+        "acted": true,
+        "level": 3,
+        "exp": 0,
+        "potions": 0
+      }
+    ]
+  }
+}

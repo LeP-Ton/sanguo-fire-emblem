@@ -1,0 +1,5 @@
+game/node_modules/
+game/dist/
+game/.vite/
+*.log
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "moduleCount": 1,
+  "stylesheetCount": 1,
+  "checkedTextFiles": 3,
+  "assetCount": 43,
+  "importedFiles": 54,
+  "pngCount": 48,
+  "relativeResources": 59,
+  "simulatedDeploymentBase": "https://example.invalid/arbitrary/subdirectory/sanguo/",
+  "publicAndDistSha256Equal": true,
+  "scope": "HTML 模块/CSS 相对引用、bundle 开发机路径、任意子目录 URL 静态解析、清单依赖、生产文件存在性、dist 与 public SHA256",
+  "limits": "本脚本不运行 HTTP 服务或浏览器；真实子目录部署、图片解码和游玩另行验收",
+  "resources": "./build-resources.json",
+  "errors": [],
+  "warnings": []
+}

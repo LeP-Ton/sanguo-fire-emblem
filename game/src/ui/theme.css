@@ -1,0 +1,15 @@
+/* 字体使用系统中文字体，运行时无需外部字体服务。 */
+::selection {
+  background: #7b633b;
+  color: #fff1ce;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #101d2a;
+}
+::-webkit-scrollbar-thumb {
+  background: #42566a;
+}

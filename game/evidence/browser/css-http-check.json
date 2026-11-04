@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "cssAndFaviconRequests": [
+    {
+      "url": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/panel_blue.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 4858
+    },
+    {
+      "url": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/panel_red.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 10822
+    },
+    {
+      "url": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/hp_fill.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 159
+    },
+    {
+      "url": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/bar_frame.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 212
+    },
+    {
+      "url": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/icon_experience.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 575
+    }
+  ],
+  "serverRequestCount": 62,
+  "httpErrors": [],
+  "scope": "修复后独立静态服务器日志及浏览器实际CSS地址的GET验证"
+}

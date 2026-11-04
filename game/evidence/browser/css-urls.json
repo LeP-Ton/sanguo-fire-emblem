@@ -1,0 +1,24 @@
+{
+  "bar": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/bar_frame.png\")",
+  "favicon": "http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/icon_experience.png",
+  "fill": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/hp_fill.png\")",
+  "panel": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/panel_blue.png\")",
+  "variables": [
+    {
+      "key": "--panel-blue",
+      "value": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/panel_blue.png\")"
+    },
+    {
+      "key": "--panel-red",
+      "value": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/panel_red.png\")"
+    },
+    {
+      "key": "--hp-fill",
+      "value": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/hp_fill.png\")"
+    },
+    {
+      "key": "--bar-frame",
+      "value": "url(\"http://127.0.0.1:4174/dist/art/assets/v2/runtime/ui/bar_frame.png\")"
+    }
+  ]
+}

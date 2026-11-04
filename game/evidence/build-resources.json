@@ -1,0 +1,572 @@
+{
+  "base": "./",
+  "usage": "相对于实际部署目录解析每个 url；kind=image 的条目可用浏览器 Image.decode() 验证",
+  "resources": [
+    {
+      "url": "./art/assets/v2/runtime/avatars/guan_yu_early.png",
+      "kind": "image",
+      "bytes": 2477,
+      "sha256": "6d77f9301c79cb6822a52e87e5a91006f813d49d8115ffac5e7000bb3db7cc48",
+      "sourceIds": [
+        "guan_yu_early_avatar"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/avatars/jian_yong_standard.png",
+      "kind": "image",
+      "bytes": 2351,
+      "sha256": "5eb7aa07cf98f8b6d09fdb6b7c18c8e885d1e73e3207dffe4c7012096fd796b8",
+      "sourceIds": [
+        "jian_yong_standard_avatar"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/avatars/liu_bei_early.png",
+      "kind": "image",
+      "bytes": 2274,
+      "sha256": "75fab4a5ccd2de1ee038c1e0e66df8efb3fffbe308e3b5505d9041fbb06d1793",
+      "sourceIds": [
+        "liu_bei_early_avatar"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/avatars/yellow_chief_standard.png",
+      "kind": "image",
+      "bytes": 2684,
+      "sha256": "d551b859f969d39f090cfc9a57e28fac26f2d8c663dd5e7133414710909c7719",
+      "sourceIds": [
+        "yellow_chief_standard_avatar"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/avatars/zhang_fei_early.png",
+      "kind": "image",
+      "bytes": 2693,
+      "sha256": "94785a804d235c59af3ebe5d7f110f01a56ba1434ace907ae16e865d6fc9c1a2",
+      "sourceIds": [
+        "zhang_fei_early_avatar"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/cutscenes/peach_garden_day.png",
+      "kind": "image",
+      "bytes": 612867,
+      "sha256": "69ed6a72c915132431cc83953da4fe9a7d8ed2c2f59b424b621474f0a43b9b70",
+      "sourceIds": [
+        "peach_garden_day"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/integration/canvas-renderer.mjs",
+      "kind": "reference-only",
+      "bytes": 9820,
+      "sha256": "a1eafe305898359063f4e06d5e1168af6f25a114304ad056bbdffc1dc5e743e4",
+      "sourceIds": [
+        "canvas-renderer"
+      ],
+      "browserRequired": false
+    },
+    {
+      "url": "./art/assets/v2/runtime/maps/plain_day.png",
+      "kind": "image",
+      "bytes": 694290,
+      "sha256": "825f746700fadf67592d59ce0efc8cde5fc78f2a321a7c6a380fe00691e16e40",
+      "sourceIds": [
+        "plain_day"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/guan_yu_early/battle.png",
+      "kind": "image",
+      "bytes": 35971,
+      "sha256": "dccc7a63b78648a88975936f57b3c20b31996817df52ba260bb1d368934d7066",
+      "sourceIds": [
+        "guan_yu_early_battle"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/guan_yu_early/calm.png",
+      "kind": "image",
+      "bytes": 36958,
+      "sha256": "89319a4fc9a54d7faa54d5c4a8207e96609267d29bf692d7c21362587679312b",
+      "sourceIds": [
+        "guan_yu_early_calm"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/jian_yong_standard/calm.png",
+      "kind": "image",
+      "bytes": 38056,
+      "sha256": "cb457fe20746a0c980d52ad0da482c554c6e525335f94c833754047399e10355",
+      "sourceIds": [
+        "jian_yong_standard_calm"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/liu_bei_early/battle.png",
+      "kind": "image",
+      "bytes": 29937,
+      "sha256": "05d3eb9ceb48526887f268e8adbddfe9137f0ac4064ccbf53d60c3a71804167f",
+      "sourceIds": [
+        "liu_bei_early_battle"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/liu_bei_early/calm.png",
+      "kind": "image",
+      "bytes": 30807,
+      "sha256": "c61e112ee552fcd1670d5d5da09c7afecd027590d7832ca2992ab0e5f0b286b7",
+      "sourceIds": [
+        "liu_bei_early_calm"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/yellow_chief_standard/calm.png",
+      "kind": "image",
+      "bytes": 39729,
+      "sha256": "31bc2c6abc5da4f81e122dc138895a8f12b5b748608a412103b649f1ca3f91e5",
+      "sourceIds": [
+        "yellow_chief_standard_calm"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/zhang_fei_early/battle.png",
+      "kind": "image",
+      "bytes": 38074,
+      "sha256": "9b2a4cfdc2d33ecd1a2ede5c9316a58ad034f0fc58105dcd93df72e03e7487cd",
+      "sourceIds": [
+        "zhang_fei_early_battle"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/portraits/zhang_fei_early/calm.png",
+      "kind": "image",
+      "bytes": 38792,
+      "sha256": "d8298830b303e4eac7cd326098781847abf8f8d0c34507c06b43da8f86adcd2a",
+      "sourceIds": [
+        "zhang_fei_early_calm"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/rigs/danyang.json",
+      "kind": "art-json",
+      "bytes": 32421,
+      "sha256": "3ff9ec13a3499567ab0fa4214dcf452dd8c392844d23b5b3b5426d0d65b96a29",
+      "sourceIds": [
+        "danyang_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/rigs/infantry_attack_spear.json",
+      "kind": "art-json",
+      "bytes": 32715,
+      "sha256": "4eaa3f0844bacecd3e799feadf421538ed15a95dab61da92e63d4e0b80678637",
+      "sourceIds": [
+        "infantry_attack_spear_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/rigs/infantry.json",
+      "kind": "art-json",
+      "bytes": 32552,
+      "sha256": "5ac0ce97aad5aeed7d3eb51dfb4367a82e9af0c15838c1fa818ab70e022171aa",
+      "sourceIds": [
+        "infantry_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/rigs/yellow_raider.json",
+      "kind": "art-json",
+      "bytes": 32722,
+      "sha256": "a5d47757744f5ddcb4eeb76fc06c426d44fe97cb9e3fee184c8ebcd5bb3912e2",
+      "sourceIds": [
+        "yellow_raider_enemy"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/avatar_frame_enemy.png",
+      "kind": "image",
+      "bytes": 332,
+      "sha256": "a048542a3262edbf83d6ed0589988f6bad8b6ad2bb32d8329f5f852aeed481fe",
+      "sourceIds": [
+        "avatar_frame_enemy"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/avatar_frame_player.png",
+      "kind": "image",
+      "bytes": 333,
+      "sha256": "805ef0d4bd8e1bf0a665288362d0e4b809751e591635da5b2bef8f79bb8bfbcc",
+      "sourceIds": [
+        "avatar_frame_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/bar_frame.png",
+      "kind": "image",
+      "bytes": 212,
+      "sha256": "44fb70d47a870384463188a599ab63d912e0a2e1906a483bea234561074341e2",
+      "sourceIds": [
+        "bar_frame"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/cursor_attack.png",
+      "kind": "image",
+      "bytes": 733,
+      "sha256": "5ed6f093c2a11a29eaa93df31981e4501d350f277873a73b34786f1a99bc5b9d",
+      "sourceIds": [
+        "cursor_attack"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/cursor_pointer.png",
+      "kind": "image",
+      "bytes": 621,
+      "sha256": "2a7110fbbf33cd337df4a9bcb3fa63b9e4c5cd9c3ab4a4a03d4de0b87f9806c0",
+      "sourceIds": [
+        "cursor_pointer"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/cursor_select.png",
+      "kind": "image",
+      "bytes": 721,
+      "sha256": "6f48a0a74b9a0253240562cd2973b2750a806c2dd81a8e36d419bdf5aeb564ec",
+      "sourceIds": [
+        "cursor_select"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/hp_fill.png",
+      "kind": "image",
+      "bytes": 159,
+      "sha256": "12ed20d88a3a85d1961b13c02498c6e1ccd0bf241413aa3c2e375ac2f5b23ce6",
+      "sourceIds": [
+        "hp_fill"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/icon_axe.png",
+      "kind": "image",
+      "bytes": 556,
+      "sha256": "e29c4e7313d7527d2ec90d1f29b3436295d3b9e115a2785d0e2ed438d38a4217",
+      "sourceIds": [
+        "icon_axe"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/icon_experience.png",
+      "kind": "html-reference",
+      "bytes": 575,
+      "sha256": "7326db88300b19769f24737043497837f527bf573b68f678b3553c818293e160"
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/icon_hp.png",
+      "kind": "image",
+      "bytes": 550,
+      "sha256": "501529c72d5e410569b39e150eb7b7a27d5a6b955b3638fa6459723e274b2bb8",
+      "sourceIds": [
+        "icon_hp"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/icon_spear.png",
+      "kind": "image",
+      "bytes": 474,
+      "sha256": "c66c9d8a8064d59187f4c336b59c8bc54ab3e83f1858b1b81ff403f1ebb69977",
+      "sourceIds": [
+        "icon_spear"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/icon_sword.png",
+      "kind": "image",
+      "bytes": 442,
+      "sha256": "3e1584885a1e4aadb410e54131fa6bf7499e4ccf56f442f92b836446f3e4a39c",
+      "sourceIds": [
+        "icon_sword"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/panel_blue.png",
+      "kind": "image",
+      "bytes": 4858,
+      "sha256": "d0586549043afb07f0b8f371805bcd1b50fe856d26b61c35f7705a498de0a497",
+      "sourceIds": [
+        "panel_blue"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/panel_red.png",
+      "kind": "image",
+      "bytes": 10822,
+      "sha256": "00a0fb688f22921c753bca83813a6660742e9231ef2f190ac80269397e02c262",
+      "sourceIds": [
+        "panel_red"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/ui/widgets.json",
+      "kind": "art-json",
+      "bytes": 488,
+      "sha256": "7a05b9f760be4c584eedcc1d9b1380f0f1e7f253e2c9a90038d1ccc348544054",
+      "sourceIds": [
+        "ui-layout"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/danyang/player_hands.png",
+      "kind": "image",
+      "bytes": 5475,
+      "sha256": "4678cc013bbc129580979ffefbda370d49991ad9baad6510374f1c1cc484a933",
+      "sourceIds": [
+        "danyang_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/danyang/player.png",
+      "kind": "image",
+      "bytes": 43242,
+      "sha256": "951464ea696c2720aca7243083727f70c6048f5f51b377dfc7f094b5ec44185c",
+      "sourceIds": [
+        "danyang_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/infantry/player_hands.png",
+      "kind": "image",
+      "bytes": 5278,
+      "sha256": "5680c3929b393c099ad16679ff2c8dc4898178cb461adc01534531de8a630ffc",
+      "sourceIds": [
+        "infantry_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/infantry/player.png",
+      "kind": "image",
+      "bytes": 43162,
+      "sha256": "034dac17af750a945e3d15cc9eff36dd35aa04a166099e8b90711849a43baec9",
+      "sourceIds": [
+        "infantry_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/infantry/variants/spear/player_hands.png",
+      "kind": "image",
+      "bytes": 5260,
+      "sha256": "0200bfacc9b4aa6ac38bb38e7cd6ffa04ba609c4036230ebbb993a8b17a47432",
+      "sourceIds": [
+        "infantry_attack_spear_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/infantry/variants/spear/player.png",
+      "kind": "image",
+      "bytes": 42258,
+      "sha256": "6296ea8c17fcc1f7ed8a99728d88bd45aa0ff15df0278d3bbf2478527de7c2b2",
+      "sourceIds": [
+        "infantry_attack_spear_player"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/yellow_raider/enemy_hands.png",
+      "kind": "image",
+      "bytes": 5453,
+      "sha256": "1571c5c4fb1b5189c0acb645abb2dc9ed0a59621495d927831b3e7fc713cddf0",
+      "sourceIds": [
+        "yellow_raider_enemy"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/units/yellow_raider/enemy.png",
+      "kind": "image",
+      "bytes": 49664,
+      "sha256": "74471da2f9e48f6852a3a9cd2edd44584b7b28a00d354ff72e30e2c7234e1476",
+      "sourceIds": [
+        "yellow_raider_enemy"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/vfx/advantage_strip.png",
+      "kind": "image",
+      "bytes": 36329,
+      "sha256": "f82584856c42c9d29a8be937989c1cdcee3079a6f00f2556b7670dd3f5b70fbe",
+      "sourceIds": [
+        "advantage"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/vfx/defeat_light_strip.png",
+      "kind": "image",
+      "bytes": 38762,
+      "sha256": "615f95d12fbe5db8ea3570a2d224ef80003b139c7527059802881ce457ac7c1e",
+      "sourceIds": [
+        "defeat_light"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/vfx/legacy_heal_strip.png",
+      "kind": "image",
+      "bytes": 20963,
+      "sha256": "cd165eb18346acafed4b093b01f3a042a61e0baf4e8adaa8d6948ddfd25f6b51",
+      "sourceIds": [
+        "legacy_heal"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/vfx/legacy_slash_strip.png",
+      "kind": "image",
+      "bytes": 26239,
+      "sha256": "e04b1556b9fc20336fa5d254fcf9a67714666e364509c43b7516ffc38207cecf",
+      "sourceIds": [
+        "legacy_slash"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/vfx/level_up_strip.png",
+      "kind": "image",
+      "bytes": 43113,
+      "sha256": "f1b08d51c4f1afcac4a20c003e2ea98b0cbdf6ec1e18d63c7fb0e41c2bb6651c",
+      "sourceIds": [
+        "level_up"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/dual_swords_offhand.png",
+      "kind": "image",
+      "bytes": 1414,
+      "sha256": "33e8ebd3d52516ab9ee93a0c89350867476640fdd8d1fc06f67c9fe394258c27",
+      "sourceIds": [
+        "dual_swords_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/dual_swords.png",
+      "kind": "image",
+      "bytes": 1331,
+      "sha256": "233bd7d1d84df66bdbd65065a8a607c90fc0724ac3f9254fc79174b639e2675a",
+      "sourceIds": [
+        "dual_swords_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/gao_sheng_blade.png",
+      "kind": "image",
+      "bytes": 1741,
+      "sha256": "43bca39938a92eb052878f2ca39c37b8023cc654bfe9889d4607e16dda2c6e27",
+      "sourceIds": [
+        "gao_sheng_blade_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/green_dragon.png",
+      "kind": "image",
+      "bytes": 1407,
+      "sha256": "0465e2de9c949a9ba3bcc3e63ba8b9c0a2a1174c322ee9e9b5391207634d9f1d",
+      "sourceIds": [
+        "green_dragon_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/iron_sword.png",
+      "kind": "image",
+      "bytes": 1413,
+      "sha256": "7284cec2aa0543a1a02735edf8d80515e06de2dae29580882e9abf9e59e42492",
+      "sourceIds": [
+        "iron_sword_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/assets/v2/runtime/weapons/held/serpent_spear.png",
+      "kind": "image",
+      "bytes": 1338,
+      "sha256": "46595cecb6b883634fc32343d5eeedf70f9252c6e5d187a3248eb50bca5c1c08",
+      "sourceIds": [
+        "serpent_spear_held"
+      ],
+      "browserRequired": true
+    },
+    {
+      "url": "./art/import-manifest.json",
+      "kind": "provenance",
+      "bytes": 16481,
+      "sha256": "2374c984c6c584747751953cb48cef5a0ddb7c57b0292513c38ec3f67628f6d5"
+    },
+    {
+      "url": "./art/manifest.json",
+      "kind": "art-manifest",
+      "bytes": 32424,
+      "sha256": "d80e4ba839a11bad157d0c2141fcf142cd78950f1f7dbfc86432771cb1a55039"
+    },
+    {
+      "url": "./assets/index-BQO0K7Ij.js",
+      "kind": "module",
+      "bytes": 303496,
+      "sha256": "0cf295cc6c2b0f7a6690d4a2ca1df1a6131ac42a96b9e51d810f1213dd5c1079"
+    },
+    {
+      "url": "./assets/index-Cho9OtgW.css",
+      "kind": "stylesheet",
+      "bytes": 18342,
+      "sha256": "71b76a8e5a25d2ffd1d8f70446f8f2d529433d09f9be6e5cd8f51590ab44cce1"
+    },
+    {
+      "url": "./index.html",
+      "kind": "html",
+      "bytes": 696,
+      "sha256": "16cd057feea5299005e9e9fc77b4654250b59ac79ed037e5b629b8e7b48976dd"
+    }
+  ]
+}

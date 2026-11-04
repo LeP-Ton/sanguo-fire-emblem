@@ -1,0 +1,67 @@
+{
+  "version": "m1.1",
+  "sourceVersion": "2.1.1",
+  "unitRevision": "2.0.4",
+  "bindings": {
+    "liu_bei": {
+      "body": "infantry_player",
+      "weapon": "dual_swords_held",
+      "visualFamily": "sword",
+      "combatFamily": "sword",
+      "bodyLabel": "通用步兵身体",
+      "review": "源库兼容；游戏同一绘制器九动作逐帧检查完成，动态验收另记"
+    },
+    "guan_yu": {
+      "body": "danyang_player",
+      "weapon": "green_dragon_held",
+      "visualFamily": "blade",
+      "combatFamily": "axe",
+      "bodyLabel": "通用丹阳兵身体",
+      "review": "采用源库兼容的步战刀模板；不改变关羽玩法职业与阵营"
+    },
+    "zhang_fei": {
+      "body": "infantry_attack_spear_player",
+      "weapon": "serpent_spear_held",
+      "visualFamily": "spear",
+      "combatFamily": "spear",
+      "bodyLabel": "通用步兵枪刺身体",
+      "review": "枪刺身体、掌部和 rig 一起切换"
+    },
+    "yellow_sword": {
+      "body": "yellow_raider_enemy",
+      "weapon": "iron_sword_held",
+      "visualFamily": "sword",
+      "combatFamily": "sword",
+      "bodyLabel": "通用黄巾贼身体",
+      "gameSideAdapter": true,
+      "adapter": "保留黄巾身体的九动作及原生掌部，用铁剑 grip 对齐逐帧主掌心；铁剑采用单手挥斩，不启用刀类双手握柄",
+      "review": "源清单未列铁剑兼容；游戏侧显式单手适配已逐帧目视检查，动态验收另记"
+    },
+    "yellow_chief": {
+      "body": "yellow_raider_enemy",
+      "weapon": "gao_sheng_blade_held",
+      "visualFamily": "blade",
+      "combatFamily": "axe",
+      "bodyLabel": "通用黄巾贼身体",
+      "review": "1×1 占格，源库兼容铁刀；不使用巨型首领"
+    }
+  },
+  "laterArtIssues": [
+    {
+      "person": "gao_sheng",
+      "status": "planned",
+      "note": "后续玩法为弓兵；当前持刀整图保留，待定向返修"
+    },
+    {
+      "person": "sha_mo_ke",
+      "status": "planned",
+      "note": "后续玩法为弓兵；当前持锤整图保留，待定向返修"
+    }
+  ],
+  "visualReview": {
+    "state": "offline-frame-reviewed",
+    "scope": "五组绑定，九动作各四帧，共180组；读取与游戏相同的身体、掌部、rig和独立武器",
+    "result": "逐帧组合已目视核查：原生手掌遮挡可见，剑挥斩、刀劈和枪刺保持对应动作，长柄不按身体画布裁切",
+    "limits": "离屏Canvas检查，不等于真实浏览器动态或用户审美验收"
+  }
+}

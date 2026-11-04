@@ -1,0 +1,19 @@
+{
+  "mapId": "taoyuan-01",
+  "version": 1,
+  "tiles": 192,
+  "deployments": 9,
+  "walkable": 74,
+  "reachable": 74,
+  "terrainCounts": {
+    "plain": 33,
+    "road": 31,
+    "bridge": 3,
+    "forest": 48,
+    "building": 44,
+    "water": 24,
+    "cliff": 9
+  },
+  "errors": [],
+  "visualLimit": "检查图是底图与人工标注的叠加；真实游戏移动与视觉验收另行记录。"
+}

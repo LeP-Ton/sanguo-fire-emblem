@@ -1,0 +1,1169 @@
+{
+  "version": "2.1.1",
+  "unitRevision": "2.0.4",
+  "assets": [
+    {
+      "id": "plain_day",
+      "name": "平原野外·白天",
+      "category": "maps",
+      "file": "assets/v2/runtime/maps/plain_day.png",
+      "width": 1024,
+      "height": 768,
+      "source": "assets/v2/source/maps/plain.png",
+      "state": "day",
+      "grid": {
+        "columns": 16,
+        "rows": 12,
+        "tileSize": 64,
+        "overlay": "assets/v2/runtime/ui/grid.png"
+      },
+      "collisionAuthored": false
+    },
+    {
+      "id": "peach_garden_day",
+      "name": "桃园·白天",
+      "category": "cutscenes",
+      "file": "assets/v2/runtime/cutscenes/peach_garden_day.png",
+      "width": 1152,
+      "height": 768,
+      "source": "assets/v2/source/cutscenes/peach_garden.png",
+      "state": "day"
+    },
+    {
+      "id": "infantry_player",
+      "name": "步兵·我方",
+      "category": "units",
+      "class": "infantry",
+      "rigId": "infantry",
+      "variant": null,
+      "faction": "player",
+      "file": "assets/v2/runtime/units/infantry/player.png",
+      "handFile": "assets/v2/runtime/units/infantry/player_hands.png",
+      "equipmentBodyFile": "assets/v2/runtime/units/infantry/player_equipment.png",
+      "freeHandFile": "assets/v2/runtime/units/infantry/player_free_hand.png",
+      "factionMaskFile": "assets/v2/runtime/units/infantry/faction-mask.png",
+      "source": "assets/v2/source/unit_redesign/infantry.png",
+      "sourceCanvas": [
+        836,
+        1881
+      ],
+      "rigFile": "assets/v2/runtime/rigs/infantry.json",
+      "width": 256,
+      "height": 576,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 4,
+      "rows": 9,
+      "frames": 36,
+      "alpha": true,
+      "unarmed": true,
+      "outerOutline": false,
+      "defaultWeapon": "iron_sword",
+      "weaponFamilies": [
+        "sword",
+        "spear",
+        "axe"
+      ],
+      "compatibleWeapons": [
+        "iron_sword",
+        "dual_swords",
+        "yitian",
+        "qinggang",
+        "iron_spear",
+        "serpent_spear",
+        "silver_spear",
+        "tiger_spear",
+        "green_spear",
+        "pitchfork",
+        "hand_axe",
+        "spiked_mace"
+      ],
+      "defaultShield": null,
+      "attackProfile": "sword",
+      "attackVariants": {
+        "spear": "infantry_attack_spear_player",
+        "axe": "infantry_attack_axe_player"
+      },
+      "animations": [
+        {
+          "id": "idle",
+          "name": "待机",
+          "row": 0,
+          "frames": 4,
+          "durationMs": 180,
+          "loop": true
+        },
+        {
+          "id": "move",
+          "name": "移动",
+          "row": 1,
+          "frames": 4,
+          "durationMs": 100,
+          "loop": true
+        },
+        {
+          "id": "attack",
+          "name": "攻击",
+          "row": 2,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "hit",
+          "name": "受击",
+          "row": 3,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "dodge",
+          "name": "回避",
+          "row": 4,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "block",
+          "name": "格挡",
+          "row": 5,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "cast",
+          "name": "计策",
+          "row": 6,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "heal",
+          "name": "恢复",
+          "row": 7,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "defeat",
+          "name": "败退",
+          "row": 8,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "dual_swords_held",
+      "name": "双股剑·手持模型",
+      "category": "weapons",
+      "file": "assets/v2/runtime/weapons/held/dual_swords.png",
+      "width": 64,
+      "height": 128,
+      "source": "assets/v2/source/weapons/dual_swords.png",
+      "family": "sword",
+      "grip": {
+        "x": 32,
+        "y": 106
+      },
+      "alpha": true,
+      "separateLayer": true,
+      "defaultScale": 0.25,
+      "portraitFile": "assets/v2/runtime/weapons/portrait/dual_swords.png",
+      "angleOffset": 0,
+      "displayLength": 30,
+      "secondary": {
+        "file": "assets/v2/runtime/weapons/held/dual_swords_offhand.png",
+        "portraitFile": "assets/v2/runtime/weapons/portrait/dual_swords_offhand.png",
+        "grip": {
+          "x": 32,
+          "y": 106
+        },
+        "bone": "hand_left"
+      }
+    },
+    {
+      "id": "danyang_player",
+      "name": "丹阳兵·我方",
+      "category": "units",
+      "class": "danyang",
+      "rigId": "danyang",
+      "variant": null,
+      "faction": "player",
+      "file": "assets/v2/runtime/units/danyang/player.png",
+      "handFile": "assets/v2/runtime/units/danyang/player_hands.png",
+      "equipmentBodyFile": "assets/v2/runtime/units/danyang/player_equipment.png",
+      "freeHandFile": "assets/v2/runtime/units/danyang/player_free_hand.png",
+      "factionMaskFile": "assets/v2/runtime/units/danyang/faction-mask.png",
+      "source": "assets/v2/source/unit_redesign/danyang.png",
+      "sourceCanvas": [
+        836,
+        1882
+      ],
+      "rigFile": "assets/v2/runtime/rigs/danyang.json",
+      "width": 256,
+      "height": 576,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 4,
+      "rows": 9,
+      "frames": 36,
+      "alpha": true,
+      "unarmed": true,
+      "outerOutline": false,
+      "defaultWeapon": "long_blade",
+      "weaponFamilies": [
+        "blade",
+        "sword",
+        "axe"
+      ],
+      "compatibleWeapons": [
+        "green_dragon",
+        "long_blade",
+        "gao_sheng_blade"
+      ],
+      "defaultShield": null,
+      "attackProfile": "blade",
+      "animations": [
+        {
+          "id": "idle",
+          "name": "待机",
+          "row": 0,
+          "frames": 4,
+          "durationMs": 180,
+          "loop": true
+        },
+        {
+          "id": "move",
+          "name": "移动",
+          "row": 1,
+          "frames": 4,
+          "durationMs": 100,
+          "loop": true
+        },
+        {
+          "id": "attack",
+          "name": "攻击",
+          "row": 2,
+          "frames": 4,
+          "durationMs": 145,
+          "loop": false
+        },
+        {
+          "id": "hit",
+          "name": "受击",
+          "row": 3,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "dodge",
+          "name": "回避",
+          "row": 4,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "block",
+          "name": "格挡",
+          "row": 5,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "cast",
+          "name": "计策",
+          "row": 6,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "heal",
+          "name": "恢复",
+          "row": 7,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "defeat",
+          "name": "败退",
+          "row": 8,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "green_dragon_held",
+      "name": "青龙偃月刀·手持模型",
+      "category": "weapons",
+      "file": "assets/v2/runtime/weapons/held/green_dragon.png",
+      "width": 64,
+      "height": 128,
+      "source": "assets/v2/source/weapons/green_dragon.png",
+      "family": "blade",
+      "grip": {
+        "x": 30,
+        "y": 100
+      },
+      "alpha": true,
+      "separateLayer": true,
+      "defaultScale": 0.6,
+      "portraitFile": "assets/v2/runtime/weapons/portrait/green_dragon.png",
+      "angleOffset": 0,
+      "displayLength": 72,
+      "twoHanded": true,
+      "handleRig": {
+        "primary": {
+          "x": 30,
+          "y": 58
+        },
+        "secondary": {
+          "x": 30,
+          "y": 88
+        },
+        "start": {
+          "x": 30,
+          "y": 45
+        },
+        "end": {
+          "x": 30,
+          "y": 117
+        }
+      }
+    },
+    {
+      "id": "infantry_attack_spear_player",
+      "name": "步兵·我方·枪刺",
+      "category": "unit_variants",
+      "class": "infantry",
+      "rigId": "infantry_attack_spear",
+      "variant": "spear",
+      "faction": "player",
+      "file": "assets/v2/runtime/units/infantry/variants/spear/player.png",
+      "handFile": "assets/v2/runtime/units/infantry/variants/spear/player_hands.png",
+      "equipmentBodyFile": "assets/v2/runtime/units/infantry/variants/spear/player_equipment.png",
+      "freeHandFile": "assets/v2/runtime/units/infantry/variants/spear/player_free_hand.png",
+      "factionMaskFile": "assets/v2/runtime/units/infantry/variants/spear/faction-mask.png",
+      "source": "assets/v2/source/unit_redesign/infantry.png",
+      "sourceCanvas": [
+        836,
+        1881
+      ],
+      "attackSources": {
+        "attack": "assets/v2/source/unit_redesign/patches/infantry_attack_spear.png"
+      },
+      "rigFile": "assets/v2/runtime/rigs/infantry_attack_spear.json",
+      "width": 256,
+      "height": 576,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 4,
+      "rows": 9,
+      "frames": 36,
+      "alpha": true,
+      "unarmed": true,
+      "outerOutline": false,
+      "defaultWeapon": "iron_spear",
+      "weaponFamilies": [
+        "spear"
+      ],
+      "compatibleWeapons": [
+        "iron_spear",
+        "serpent_spear",
+        "silver_spear",
+        "tiger_spear",
+        "green_spear",
+        "pitchfork"
+      ],
+      "defaultShield": null,
+      "attackProfile": "spear",
+      "animations": [
+        {
+          "id": "idle",
+          "name": "待机",
+          "row": 0,
+          "frames": 4,
+          "durationMs": 180,
+          "loop": true
+        },
+        {
+          "id": "move",
+          "name": "移动",
+          "row": 1,
+          "frames": 4,
+          "durationMs": 100,
+          "loop": true
+        },
+        {
+          "id": "attack",
+          "name": "攻击",
+          "row": 2,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "hit",
+          "name": "受击",
+          "row": 3,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "dodge",
+          "name": "回避",
+          "row": 4,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "block",
+          "name": "格挡",
+          "row": 5,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "cast",
+          "name": "计策",
+          "row": 6,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "heal",
+          "name": "恢复",
+          "row": 7,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "defeat",
+          "name": "败退",
+          "row": 8,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "serpent_spear_held",
+      "name": "丈八蛇矛·手持模型",
+      "category": "weapons",
+      "file": "assets/v2/runtime/weapons/held/serpent_spear.png",
+      "width": 64,
+      "height": 128,
+      "source": "assets/v2/source/weapons/serpent_spear.png",
+      "family": "spear",
+      "grip": {
+        "x": 34,
+        "y": 100
+      },
+      "alpha": true,
+      "separateLayer": true,
+      "defaultScale": 0.6333333333333333,
+      "portraitFile": "assets/v2/runtime/weapons/portrait/serpent_spear.png",
+      "angleOffset": 0,
+      "displayLength": 76,
+      "twoHanded": true,
+      "handleRig": {
+        "primary": {
+          "x": 34,
+          "y": 58
+        },
+        "secondary": {
+          "x": 34,
+          "y": 88
+        },
+        "start": {
+          "x": 34,
+          "y": 45
+        },
+        "end": {
+          "x": 34,
+          "y": 117
+        }
+      }
+    },
+    {
+      "id": "yellow_raider_enemy",
+      "name": "黄巾贼·敌军",
+      "category": "units",
+      "class": "yellow_raider",
+      "rigId": "yellow_raider",
+      "variant": null,
+      "faction": "enemy",
+      "file": "assets/v2/runtime/units/yellow_raider/enemy.png",
+      "handFile": "assets/v2/runtime/units/yellow_raider/enemy_hands.png",
+      "equipmentBodyFile": "assets/v2/runtime/units/yellow_raider/enemy_equipment.png",
+      "freeHandFile": "assets/v2/runtime/units/yellow_raider/enemy_free_hand.png",
+      "factionMaskFile": "assets/v2/runtime/units/yellow_raider/faction-mask.png",
+      "source": "assets/v2/source/unit_redesign/yellow_raider.png",
+      "sourceCanvas": [
+        836,
+        1881
+      ],
+      "rigFile": "assets/v2/runtime/rigs/yellow_raider.json",
+      "width": 256,
+      "height": 576,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "columns": 4,
+      "rows": 9,
+      "frames": 36,
+      "alpha": true,
+      "unarmed": true,
+      "outerOutline": false,
+      "defaultWeapon": "gao_sheng_blade",
+      "weaponFamilies": [
+        "sword",
+        "blade",
+        "axe",
+        "spear"
+      ],
+      "compatibleWeapons": [
+        "green_dragon",
+        "long_blade",
+        "gao_sheng_blade"
+      ],
+      "defaultShield": null,
+      "attackProfile": "blade",
+      "animations": [
+        {
+          "id": "idle",
+          "name": "待机",
+          "row": 0,
+          "frames": 4,
+          "durationMs": 180,
+          "loop": true
+        },
+        {
+          "id": "move",
+          "name": "移动",
+          "row": 1,
+          "frames": 4,
+          "durationMs": 100,
+          "loop": true
+        },
+        {
+          "id": "attack",
+          "name": "攻击",
+          "row": 2,
+          "frames": 4,
+          "durationMs": 145,
+          "loop": false
+        },
+        {
+          "id": "hit",
+          "name": "受击",
+          "row": 3,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "dodge",
+          "name": "回避",
+          "row": 4,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "block",
+          "name": "格挡",
+          "row": 5,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "cast",
+          "name": "计策",
+          "row": 6,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "heal",
+          "name": "恢复",
+          "row": 7,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        },
+        {
+          "id": "defeat",
+          "name": "败退",
+          "row": 8,
+          "frames": 4,
+          "durationMs": 120,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "id": "iron_sword_held",
+      "name": "铁剑·手持模型",
+      "category": "weapons",
+      "file": "assets/v2/runtime/weapons/held/iron_sword.png",
+      "width": 64,
+      "height": 128,
+      "source": "assets/v2/source/weapons/iron_sword.png",
+      "family": "sword",
+      "grip": {
+        "x": 32,
+        "y": 110
+      },
+      "alpha": true,
+      "separateLayer": true,
+      "defaultScale": 0.26666666666666666,
+      "portraitFile": "assets/v2/runtime/weapons/portrait/iron_sword.png",
+      "angleOffset": 0,
+      "displayLength": 32
+    },
+    {
+      "id": "gao_sheng_blade_held",
+      "name": "大刀·手持模型",
+      "category": "weapons",
+      "file": "assets/v2/runtime/weapons/held/gao_sheng_blade.png",
+      "width": 64,
+      "height": 128,
+      "source": "assets/v2/source/weapons/gao_sheng_blade.png",
+      "family": "blade",
+      "grip": {
+        "x": 34,
+        "y": 100
+      },
+      "alpha": true,
+      "separateLayer": true,
+      "defaultScale": 0.31666666666666665,
+      "portraitFile": "assets/v2/runtime/weapons/portrait/gao_sheng_blade.png",
+      "angleOffset": 0,
+      "displayLength": 38
+    },
+    {
+      "id": "liu_bei_early_calm",
+      "name": "刘备·义军布衣：纯素浅绿粗布袍、米白内衫、布巾束发，没有金边、刺绣、皇冠或铠甲·平静",
+      "category": "portraits",
+      "person": "liu_bei",
+      "variant": "early",
+      "expression": "calm",
+      "file": "assets/v2/runtime/portraits/liu_bei_early/calm.png",
+      "source": "assets/v2/source/portraits/liu_bei_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "liu_bei_early_battle",
+      "name": "刘备·义军布衣：纯素浅绿粗布袍、米白内衫、布巾束发，没有金边、刺绣、皇冠或铠甲·战斗",
+      "category": "portraits",
+      "person": "liu_bei",
+      "variant": "early",
+      "expression": "battle",
+      "file": "assets/v2/runtime/portraits/liu_bei_early/battle.png",
+      "source": "assets/v2/source/portraits/liu_bei_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "liu_bei_early_avatar",
+      "name": "刘备·义军布衣：纯素浅绿粗布袍、米白内衫、布巾束发，没有金边、刺绣、皇冠或铠甲头像",
+      "category": "avatars",
+      "person": "liu_bei",
+      "variant": "early",
+      "file": "assets/v2/runtime/avatars/liu_bei_early.png",
+      "source": "assets/v2/source/portraits/liu_bei_early.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true
+    },
+    {
+      "id": "guan_yu_early_calm",
+      "name": "关羽·前期皮甲绿袍·平静",
+      "category": "portraits",
+      "person": "guan_yu",
+      "variant": "early",
+      "expression": "calm",
+      "file": "assets/v2/runtime/portraits/guan_yu_early/calm.png",
+      "source": "assets/v2/source/portraits/guan_yu_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "guan_yu_early_battle",
+      "name": "关羽·前期皮甲绿袍·战斗",
+      "category": "portraits",
+      "person": "guan_yu",
+      "variant": "early",
+      "expression": "battle",
+      "file": "assets/v2/runtime/portraits/guan_yu_early/battle.png",
+      "source": "assets/v2/source/portraits/guan_yu_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "guan_yu_early_avatar",
+      "name": "关羽·前期皮甲绿袍头像",
+      "category": "avatars",
+      "person": "guan_yu",
+      "variant": "early",
+      "file": "assets/v2/runtime/avatars/guan_yu_early.png",
+      "source": "assets/v2/source/portraits/guan_yu_early.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true
+    },
+    {
+      "id": "zhang_fei_early_calm",
+      "name": "张飞·前期黑皮甲·平静",
+      "category": "portraits",
+      "person": "zhang_fei",
+      "variant": "early",
+      "expression": "calm",
+      "file": "assets/v2/runtime/portraits/zhang_fei_early/calm.png",
+      "source": "assets/v2/source/portraits/zhang_fei_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "zhang_fei_early_battle",
+      "name": "张飞·前期黑皮甲·战斗",
+      "category": "portraits",
+      "person": "zhang_fei",
+      "variant": "early",
+      "expression": "battle",
+      "file": "assets/v2/runtime/portraits/zhang_fei_early/battle.png",
+      "source": "assets/v2/source/portraits/zhang_fei_early.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "zhang_fei_early_avatar",
+      "name": "张飞·前期黑皮甲头像",
+      "category": "avatars",
+      "person": "zhang_fei",
+      "variant": "early",
+      "file": "assets/v2/runtime/avatars/zhang_fei_early.png",
+      "source": "assets/v2/source/portraits/zhang_fei_early.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true
+    },
+    {
+      "id": "jian_yong_standard_calm",
+      "name": "简雍·常规服装·平静",
+      "category": "portraits",
+      "person": "jian_yong",
+      "variant": "standard",
+      "expression": "calm",
+      "file": "assets/v2/runtime/portraits/jian_yong_standard/calm.png",
+      "source": "assets/v2/source/portraits/jian_yong_standard.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "jian_yong_standard_avatar",
+      "name": "简雍·常规服装头像",
+      "category": "avatars",
+      "person": "jian_yong",
+      "variant": "standard",
+      "file": "assets/v2/runtime/avatars/jian_yong_standard.png",
+      "source": "assets/v2/source/portraits/jian_yong_standard.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true
+    },
+    {
+      "id": "yellow_chief_standard_calm",
+      "name": "黄巾头目·常规服装·平静",
+      "category": "portraits",
+      "person": "yellow_chief",
+      "variant": "standard",
+      "expression": "calm",
+      "file": "assets/v2/runtime/portraits/yellow_chief_standard/calm.png",
+      "source": "assets/v2/source/portraits/yellow_chief_standard.png",
+      "width": 256,
+      "height": 384,
+      "alpha": true,
+      "unarmed": true,
+      "camera": "统一半身与共同缩放规则",
+      "usage": "对话与空手立绘；持械立绘使用armed_portraits整图，不绑定独立武器"
+    },
+    {
+      "id": "yellow_chief_standard_avatar",
+      "name": "黄巾头目·常规服装头像",
+      "category": "avatars",
+      "person": "yellow_chief",
+      "variant": "standard",
+      "file": "assets/v2/runtime/avatars/yellow_chief_standard.png",
+      "source": "assets/v2/source/portraits/yellow_chief_standard.png",
+      "width": 64,
+      "height": 64,
+      "alpha": true
+    },
+    {
+      "id": "panel_blue",
+      "name": "深蓝对话框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/panel_blue.png",
+      "width": 192,
+      "height": 192,
+      "source": "assets/v2/source/reused/ui_panel_blue.png",
+      "alpha": true,
+      "nineSlice": {
+        "left": 32,
+        "right": 32,
+        "top": 32,
+        "bottom": 32
+      }
+    },
+    {
+      "id": "panel_red",
+      "name": "暗红对话框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/panel_red.png",
+      "width": 192,
+      "height": 192,
+      "source": "assets/v2/source/reused/ui_panel_red.png",
+      "alpha": true,
+      "nineSlice": {
+        "left": 32,
+        "right": 32,
+        "top": 32,
+        "bottom": 32
+      }
+    },
+    {
+      "id": "bar_frame",
+      "name": "属性条外框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/bar_frame.png",
+      "width": 160,
+      "height": 16,
+      "alpha": false,
+      "source": "沿用旧版暗金像素UI的代码图形"
+    },
+    {
+      "id": "hp_fill",
+      "name": "血条",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/hp_fill.png",
+      "width": 152,
+      "height": 8,
+      "alpha": false,
+      "source": "沿用旧版暗金像素UI的代码图形"
+    },
+    {
+      "id": "icon_experience",
+      "name": "经验",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/icon_experience.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/icon_experience.png",
+      "alpha": true
+    },
+    {
+      "id": "icon_hp",
+      "name": "生命",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/icon_hp.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/icon_hp.png",
+      "alpha": true
+    },
+    {
+      "id": "avatar_frame_player",
+      "name": "我方头像框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/avatar_frame_player.png",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "source": "沿用旧版暗金像素UI的代码图形"
+    },
+    {
+      "id": "avatar_frame_enemy",
+      "name": "敌军头像框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/avatar_frame_enemy.png",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "source": "沿用旧版暗金像素UI的代码图形"
+    },
+    {
+      "id": "icon_sword",
+      "name": "剑系",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/icon_sword.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/icon_sword.png",
+      "alpha": true
+    },
+    {
+      "id": "icon_spear",
+      "name": "枪系",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/icon_spear.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/icon_spear.png",
+      "alpha": true
+    },
+    {
+      "id": "icon_axe",
+      "name": "斧系",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/icon_axe.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/icon_axe.png",
+      "alpha": true
+    },
+    {
+      "id": "cursor_select",
+      "name": "选择框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/cursor_select.png",
+      "width": 64,
+      "height": 64,
+      "source": "assets/v2/source/reused/cursor_select.png",
+      "alpha": true
+    },
+    {
+      "id": "cursor_attack",
+      "name": "攻击框",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/cursor_attack.png",
+      "width": 64,
+      "height": 64,
+      "source": "assets/v2/source/reused/cursor_attack.png",
+      "alpha": true
+    },
+    {
+      "id": "cursor_pointer",
+      "name": "装甲指针",
+      "category": "ui",
+      "file": "assets/v2/runtime/ui/cursor_pointer.png",
+      "width": 32,
+      "height": 32,
+      "source": "assets/v2/source/reused/cursor_pointer.png",
+      "alpha": true
+    },
+    {
+      "id": "legacy_slash",
+      "name": "刀光",
+      "category": "vfx",
+      "file": "assets/v2/runtime/vfx/legacy_slash_strip.png",
+      "width": 1152,
+      "height": 128,
+      "source": "assets/v2/source/reused/vfx_slash.png",
+      "frames": 9,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": 80,
+      "alpha": true,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "id": "advantage",
+      "name": "克制火花",
+      "category": "vfx",
+      "file": "assets/v2/runtime/vfx/advantage_strip.png",
+      "width": 1152,
+      "height": 128,
+      "source": "assets/v2/source/vfx/advantage.png",
+      "frames": 9,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": 80,
+      "alpha": true,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "id": "legacy_heal",
+      "name": "恢复",
+      "category": "vfx",
+      "file": "assets/v2/runtime/vfx/legacy_heal_strip.png",
+      "width": 1152,
+      "height": 128,
+      "source": "assets/v2/source/reused/vfx_heal.png",
+      "frames": 9,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": 80,
+      "alpha": true,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "id": "level_up",
+      "name": "升级金光",
+      "category": "vfx",
+      "file": "assets/v2/runtime/vfx/level_up_strip.png",
+      "width": 1152,
+      "height": 128,
+      "source": "assets/v2/source/vfx/level_up.png",
+      "frames": 9,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": 80,
+      "alpha": true,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "id": "defeat_light",
+      "name": "败退光芒消散",
+      "category": "vfx",
+      "file": "assets/v2/runtime/vfx/defeat_light_strip.png",
+      "width": 1152,
+      "height": 128,
+      "source": "assets/v2/source/vfx/defeat_light.png",
+      "frames": 9,
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameDurationMs": 80,
+      "alpha": true,
+      "loop": false,
+      "pivot": [
+        0.5,
+        0.75
+      ]
+    }
+  ],
+  "mapping": {
+    "version": "m1.1",
+    "sourceVersion": "2.1.1",
+    "unitRevision": "2.0.4",
+    "bindings": {
+      "liu_bei": {
+        "body": "infantry_player",
+        "weapon": "dual_swords_held",
+        "visualFamily": "sword",
+        "combatFamily": "sword",
+        "bodyLabel": "通用步兵身体",
+        "review": "源库兼容；游戏同一绘制器九动作逐帧检查完成，动态验收另记"
+      },
+      "guan_yu": {
+        "body": "danyang_player",
+        "weapon": "green_dragon_held",
+        "visualFamily": "blade",
+        "combatFamily": "axe",
+        "bodyLabel": "通用丹阳兵身体",
+        "review": "采用源库兼容的步战刀模板；不改变关羽玩法职业与阵营"
+      },
+      "zhang_fei": {
+        "body": "infantry_attack_spear_player",
+        "weapon": "serpent_spear_held",
+        "visualFamily": "spear",
+        "combatFamily": "spear",
+        "bodyLabel": "通用步兵枪刺身体",
+        "review": "枪刺身体、掌部和 rig 一起切换"
+      },
+      "yellow_sword": {
+        "body": "yellow_raider_enemy",
+        "weapon": "iron_sword_held",
+        "visualFamily": "sword",
+        "combatFamily": "sword",
+        "bodyLabel": "通用黄巾贼身体",
+        "gameSideAdapter": true,
+        "adapter": "保留黄巾身体的九动作及原生掌部，用铁剑 grip 对齐逐帧主掌心；铁剑采用单手挥斩，不启用刀类双手握柄",
+        "review": "源清单未列铁剑兼容；游戏侧显式单手适配已逐帧目视检查，动态验收另记"
+      },
+      "yellow_chief": {
+        "body": "yellow_raider_enemy",
+        "weapon": "gao_sheng_blade_held",
+        "visualFamily": "blade",
+        "combatFamily": "axe",
+        "bodyLabel": "通用黄巾贼身体",
+        "review": "1×1 占格，源库兼容铁刀；不使用巨型首领"
+      }
+    },
+    "laterArtIssues": [
+      {
+        "person": "gao_sheng",
+        "status": "planned",
+        "note": "后续玩法为弓兵；当前持刀整图保留，待定向返修"
+      },
+      {
+        "person": "sha_mo_ke",
+        "status": "planned",
+        "note": "后续玩法为弓兵；当前持锤整图保留，待定向返修"
+      }
+    ],
+    "visualReview": {
+      "state": "offline-frame-reviewed",
+      "scope": "五组绑定，九动作各四帧，共180组；读取与游戏相同的身体、掌部、rig和独立武器",
+      "result": "逐帧组合已目视核查：原生手掌遮挡可见，剑挥斩、刀劈和枪刺保持对应动作，长柄不按身体画布裁切",
+      "limits": "离屏Canvas检查，不等于真实浏览器动态或用户审美验收"
+    }
+  },
+  "widgets": "assets/v2/runtime/ui/widgets.json"
+}

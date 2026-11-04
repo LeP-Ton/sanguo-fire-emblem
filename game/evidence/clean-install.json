@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "workingDirectory": "/private/tmp/sanguo-clean-install.VZlpjC",
+  "environment": {
+    "platform": "darwin-arm64",
+    "node": "v20.20.0",
+    "npm": "10.8.2"
+  },
+  "input": {
+    "copiedFiles": [
+      "package.json",
+      "package-lock.json"
+    ],
+    "packageJsonSha256": "337d750b01a624afc7824ef17836884a997b2a73630a8d8fc07bd40b288c7331",
+    "packageLockSha256": "d91c0bf80b9493dbeb9add92cff2fc2242a97e207e8f9fa26696acbdf447ce0d",
+    "copiesEqualCurrentProject": true
+  },
+  "installation": {
+    "command": "npm ci --offline --cache /private/tmp/sanguo-npm-cache --no-audit --no-fund",
+    "exitCode": 0,
+    "output": "added 26 packages in 2s",
+    "installScriptsEnabled": true,
+    "networkUsed": false,
+    "projectNodeModulesModified": false,
+    "dependencyFilesModified": false
+  },
+  "cli": [
+    {
+      "command": "./node_modules/.bin/tsc --version",
+      "exitCode": 0,
+      "output": "Version 5.9.3"
+    },
+    {
+      "command": "./node_modules/.bin/vite --version",
+      "exitCode": 0,
+      "output": "vite/6.4.5 darwin-arm64 node-v20.20.0"
+    },
+    {
+      "command": "./node_modules/.bin/esbuild --version",
+      "exitCode": 0,
+      "output": "0.28.2"
+    },
+    {
+      "command": "./node_modules/.bin/tsx --version",
+      "firstAttempt": {
+        "exitCode": 1,
+        "result": "已输出 tsx v4.23.15；沙箱禁止 CLI 创建本地 IPC 管道，报 listen EPERM"
+      },
+      "retry": {
+        "sandboxPermissions": "require_escalated",
+        "exitCode": 0,
+        "output": "tsx v4.23.15\nnode v20.20.0"
+      }
+    }
+  ],
+  "typescriptSmoke": {
+    "command": "node --import tsx smoke.ts",
+    "sandboxPermissions": "use_default",
+    "exitCode": 0,
+    "source": "const result: { status: string; value: number } = { status: 'TypeScript 加载成功', value: 6 * 7 }; console.log(JSON.stringify(result));",
+    "output": {
+      "status": "TypeScript 加载成功",
+      "value": 42
+    }
+  },
+  "scope": "仅复制依赖声明与锁文件，在全新临时目录正常安装并验证工具；未复制完整工程、未重复全量测试。",
+  "limits": "此次使用已有 npm 缓存的离线干净安装；未验证空缓存首次联网下载。tsx 裸 CLI 的第一次失败为沙箱 IPC 限制，获准提权后版本命令通过；项目采用的 node --import tsx 在沙箱内通过。"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "assetCount": 43,
+  "fileCount": 54,
+  "pngCount": 48,
+  "byteCount": 2143908,
+  "rigCount": 4,
+  "checkedFrames": 144,
+  "bindingCount": 5,
+  "sourceVerified": true,
+  "scope": "SHA256、运行依赖闭包、PNG 签名/尺寸/块结构、源映射、九动作与逐帧掌心、UI 元数据",
+  "limits": "PNG 浏览器解码、实际动态、交互与用户视觉验收不由此脚本代替",
+  "errors": [],
+  "warnings": []
+}
